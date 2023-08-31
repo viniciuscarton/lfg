@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propostas</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/proposta.css' %}" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../static/js/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/"><img src="../static/images/shortlogo.png" alt="Logo" class="logo"></a>
+            <ul class="nav-list">
+                <li><a href="/listagem">Painel Administrativo</a></li>
+                <li><a href="#">Estatísticas</a></li>
+                <li><a href="#">Nossa Missão</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="proposta">Proposta</h1>
+        <div class="formulario">
+            <form id="formulario-d">
+                <div id="campos">
+                </div>
+                <button type="button" class="submit-campo bh" id="submit-campo">Adicionar campo</button>
+                <button type="button" class="ok-campo bh" id="ok-campo">Ok</button>
+                <button type="submit" class="bh">Enviar</button>
+            </form>
+            <ul id="propostas-list">
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 LFG. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

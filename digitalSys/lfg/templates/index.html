@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LFG</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}" />
+    <script src="../static/js/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- <a href=""><img src="../static/images/shortlogo.png" alt="Logo"></a>
+        <h1>Proposta</h1> -->
+        <nav class="navbar">
+            <a href="/"><img src="../static/images/shortlogo.png" alt="Logo" class="logo"></a>
+            <ul class="nav-list">
+                <li><a href="/listagem">Painel Administrativo</a></li>
+                <li><a href="#">Estatísticas</a></li>
+                <li><a href="#">Nossa Missão</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img src="../static/images/longlogo.png" alt="Logo">
+        <a href="/proposta/"><button>Envie sua proposta!</button></a>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 LFG. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
