@@ -27,7 +27,7 @@ Terminal 3:  digitalSys >> python manage.py runserver <br>
 ## Tecnologias 
 * Django;
 * Node.js e Express.js: para a comunicação entre formulário-API-MongoDB;
-* MongoDB: banco de dados;
+* MongoDB: banco de dados.
 
 ## Funcionalidades futuras
 *  Autenticação para o Painel Administrativo;
